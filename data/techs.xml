@@ -2281,8 +2281,8 @@
 	</Tech>
 	<Tech name="unsc_wolverine_upgrade3" type="Normal">
 		<DBID>1915</DBID>
-		<DisplayNameID>1124</DisplayNameID>
-		<RolloverTextID>1125</RolloverTextID>
+		<DisplayNameID>60152</DisplayNameID>
+		<RolloverTextID>60153</RolloverTextID>
 		<PrereqTextID>234</PrereqTextID>
 		<Cost resourcetype="Supplies">900</Cost>
 		<Cost resourcetype="Power">4</Cost>
@@ -2301,6 +2301,12 @@
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedMissileAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="GrenadeLauncherAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RailgunSecondaryAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">

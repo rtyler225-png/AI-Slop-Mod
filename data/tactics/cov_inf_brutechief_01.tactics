@@ -195,7 +195,18 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>3</WorkRange>
 	</Action>
+	<Action>
+		<Name>Deflect_01</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectDamageFactor>0.33</DeflectDamageFactor>
+		<DeflectChanceMin>0.65</DeflectChanceMin>
+		<DeflectChanceMax>0.65</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<WeaponType>SmallArms</WeaponType>
+		<StartDisabled />
+	</Action>
 	<Tactic>
+		<PersistentAction>Deflect_01</PersistentAction>
 		<PersistentAction>Charge</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />

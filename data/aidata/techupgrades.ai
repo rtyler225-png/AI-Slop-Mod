@@ -181,7 +181,7 @@
 			<c>unsc_bldg_fieldArmory_01</c>
 			<c>1</c>
 		</Row>
-	<Row><c>unsc_vanguard_upgrade1</c><c>unsc_inf_vanguardMech_01</c><c>1</c></Row><Row><c>unsc_vanguard_upgrade2</c><c>unsc_inf_vanguardMech_01</c><c>1</c></Row><Row><c>unsc_vanguard_upgrade3</c><c>unsc_inf_vanguardMech_01</c><c>1</c></Row><Row><c>unsc_tech_cyberneticOverdrive</c><c>unsc_veh_scorpion_01</c><c>1</c></Row><Row><c>unsc_tech_titaniumPlating</c><c>unsc_veh_wolverine_01</c><c>1</c></Row><Row><c>unsc_tech_neuralInterface</c><c>unsc_inf_marine_01</c><c>1</c></Row></Table>
+	<Row><c>unsc_vanguard_upgrade1</c><c>unsc_inf_vanguardMech_01</c><c>1</c></Row><Row><c>unsc_vanguard_upgrade2</c><c>unsc_inf_vanguardMech_01</c><c>1</c></Row><Row><c>unsc_vanguard_upgrade3</c><c>unsc_inf_vanguardMech_01</c><c>1</c></Row><Row><c>unsc_tech_cyberneticOverdrive</c><c>unsc_veh_scorpion_01</c><c>1</c></Row><Row><c>unsc_tech_titaniumPlating</c><c>unsc_veh_wolverine_01</c><c>1</c></Row><Row><c>unsc_tech_neuralInterface</c><c>unsc_inf_marine_01</c><c>1</c></Row><Row><c>unsc_wolverine_upgrade1</c><c>unsc_veh_wolverine_01</c><c>1</c></Row><Row><c>unsc_wolverine_upgrade2</c><c>unsc_veh_wolverine_01</c><c>1</c></Row><Row><c>unsc_wolverine_upgrade3</c><c>unsc_veh_wolverine_01</c><c>1</c></Row></Table>
 	<Table Name="CovBasic" Type="TechUpgradeTable">
 		<Row>
 			<c>cov_arbiter_upgrade1</c>

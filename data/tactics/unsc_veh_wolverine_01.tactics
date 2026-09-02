@@ -177,6 +177,11 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
+			<Action>RailgunSecondaryAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
 			<Action>GrenadeLauncherAttackAction</Action>
 		</TargetRule>
 		<TargetRule>

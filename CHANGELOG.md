@@ -6,6 +6,39 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.1.0] - 2026-09-02
+
+### Theme: Chieftain Kinetic Deflector & Wolverine Dual Railgun Conversion
+
+This iteration brings explosive tactical weapon overhauls and leader combat enhancements to both UNSC and Covenant forces, dramatically increasing combat versatility against armor and small arms:
+
+---
+
+### Key Highlights & Additions
+
+#### 1. Covenant: Brute Chieftain Kinetic Deflector & Shockwave Overhaul
+- **Kinetic Deflector Shield** (`Deflect_01`):
+  - Equipped the Brute Chieftain with a persistent 360-degree kinetic deflector field (`DeflectChanceMin/Max 0.65`, `DeflectDamageFactor 0.33`).
+  - Deflects incoming ballistic and small-arms fire away from the Chieftain while charging or executing melee strikes.
+  - Automatically unlocked upon researching **Vortex Deflector War Hammer** (`cov_bruteChief_upgrade1`).
+- **Graviton Singularity Shockwave Buff**:
+  - Significantly buffed physical launch and knockback forces on `AreaStunHammer` (launch angles increased to 15°–35°, impulse forces up to 600–900).
+  - Ground units caught in the shockwave are thrown violently across the battlefield with true cinematic gravity impact.
+  - Updated Chieftain upgrade strings (IDs `60150`, `60151`, `60154`, `60155`) with full lore and mechanical documentation.
+
+#### 2. UNSC: Wolverine Dual Light Railgun Secondary Weapon Conversion
+- **Anti-Armor Light Railgun** (`RailgunSecondary`):
+  - Upgrading the Wolverine to **Volley II & Anti-Armor Railgun** (`unsc_wolverine_upgrade3`) now converts its auxiliary weapon mount from the standard anti-infantry grenade launcher into a hyper-velocity light railgun turret.
+  - Fires armor-piercing kinetic projectiles (`fx_proj_lightRailgun_02` with `unsc_lightcannon_01` impacts) delivering 180 DPS at 60 max range.
+  - Prioritizes enemy ground vehicles and fortified defensive turrets, transforming the Wolverine into a formidable dual-role anti-air and mobile armor-piercing vehicle.
+  - Seamlessly reconfigures weapon action bindings in `unsc_veh_wolverine_01.tactics` and `techs.xml` upon research.
+  - Documented in localized strings (IDs `60152`, `60153`).
+
+#### 3. Skirmish AI Tech Priorities
+- Added prioritized research rules in `data/aidata/techupgrades.ai` for UNSC Wolverine upgrades (`unsc_wolverine_upgrade1/2/3`) and Brute Chieftain upgrade paths, ensuring AI commanders aggressively field the new railgun and deflector tech.
+
+---
+
 ## [1.0.0] - 2026-09-02
 
 ### Theme: Cybernetic Overcharge & Skirmish AI Overhaul
