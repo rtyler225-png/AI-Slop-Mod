@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<fogOfWarConfig>
+	<exploredBrightness>0.0799999982</exploredBrightness>
+	<unexploredBrightness>0.00999999978</unexploredBrightness>
+	<edgeOfWorldTransition>14</edgeOfWorldTransition>
+	<unexploredMaskUVMultiplier>0.075000003</unexploredMaskUVMultiplier>
+</fogOfWarConfig>
