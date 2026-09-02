@@ -3903,7 +3903,7 @@
 		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
-	<Command Type="TrainSquad" Position="8">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="2">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="7">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="7">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="7">unsc_vanguard_upgrade3</Command></Object>
 	<Object name="unsc_bldg_command_foundation_01" id="0" dbid="4311">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>unsc\building\command_01\command_foundation_01.vis</Visual>
@@ -4028,7 +4028,7 @@
 		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
-	<Command Type="TrainSquad" Position="8">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="2">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="7">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="7">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="7">unsc_vanguard_upgrade3</Command></Object>
 	<Object name="unsc_bldg_command_foundation_02" id="0" dbid="4312">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>unsc\building\command_02\command_foundation_02.vis</Visual>
@@ -4153,7 +4153,7 @@
 		<HPBar offset="0,23,0">UNSC_Bldg_HealthCommand</HPBar>
 		<SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
 		<SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
-	<Command Type="TrainSquad" Position="8">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="2">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="7">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="7">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="7">unsc_vanguard_upgrade3</Command></Object>
 	<Object name="unsc_bldg_command_foundation_03" id="0" dbid="4313">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>unsc\building\command_03\command_foundation_03.vis</Visual>
@@ -4626,7 +4626,7 @@
 		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
 		<BuildRotation>180</BuildRotation>
 		<BuildOffset>-10,0,0</BuildOffset>
-	<Command Type="TrainSquad" Position="8">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="0">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="0">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="0">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="0">unsc_vanguard_upgrade3</Command></Object>
 	<Object name="unsc_bldg_vehicledepot_01" id="0" dbid="138">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>unsc\building\vehicledepot_01\vehicledepot_01.vis</Visual>
@@ -4711,7 +4711,7 @@
 		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
 		<BuildRotation>180</BuildRotation>
 		<BuildOffset>-10,0,0</BuildOffset>
-	<Command Type="TrainSquad" Position="8">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="8">unsc_vanguard_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="0">unsc_inf_vanguardMech_01</Command><Command Type="Research" Position="0">unsc_vanguard_upgrade1</Command><Command Type="Research" Position="0">unsc_vanguard_upgrade2</Command><Command Type="Research" Position="0">unsc_vanguard_upgrade3</Command></Object>
 	<Object name="unsc_bldg_airPad_01" id="0" dbid="139">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>unsc\building\airpad_01\airpad_01.vis</Visual>
@@ -4875,7 +4875,7 @@
 		<AutoParkingLot Offset="-23.75,0,0" Rotation="180">hook_bldg_parkingLotUNSC_01</AutoParkingLot>
 		<BuildRotation>180</BuildRotation>
 		<BuildOffset>-10,0,0</BuildOffset>
-	<Command Type="Research" Position="3">unsc_tech_cyberneticOverdrive</Command><Command Type="Research" Position="3">unsc_tech_titaniumPlating</Command><Command Type="Research" Position="8">unsc_tech_neuralInterface</Command></Object>
+	<Command Type="Research" Position="0">unsc_tech_neuralInterface</Command><Command Type="Research" Position="3">unsc_tech_cyberneticOverdrive</Command><Command Type="Research" Position="3">unsc_tech_titaniumPlating</Command></Object>
 	<Object name="unsc_bldg_turret_01" id="0" dbid="3093">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>unsc\building\turret_01\turret_01.vis</Visual>
@@ -7450,7 +7450,7 @@
 		<Flag>KillChildObjectsOnDeath</Flag>
 		<Flag>TriggersBattleMusicWhenAttacked</Flag>
 		<HPBar offset="5,25,0">COV_Bldg_Health</HPBar>
-	<Command Type="TrainSquad" Position="8">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="2">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="6">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="6">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="6">cov_shadowZealot_upgrade3</Command></Object>
 	<Object name="cov_bldg_builder_02" id="0" dbid="3035">
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType ApplyFormation="true">0</TrainerType>
@@ -7555,7 +7555,7 @@
 		<Flag>KillChildObjectsOnDeath</Flag>
 		<Flag>TriggersBattleMusicWhenAttacked</Flag>
 		<HPBar offset="5,25,0">COV_Bldg_Health</HPBar>
-	<Command Type="TrainSquad" Position="8">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="2">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="6">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="6">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="6">cov_shadowZealot_upgrade3</Command></Object>
 	<Object name="cov_bldg_builder_03" id="0" dbid="3036">
 		<ObjectClass>Building</ObjectClass>
 		<TrainerType ApplyFormation="true">0</TrainerType>
@@ -7661,7 +7661,7 @@
 		<Flag>KillChildObjectsOnDeath</Flag>
 		<Flag>TriggersBattleMusicWhenAttacked</Flag>
 		<HPBar offset="5,25,0">COV_Bldg_Health</HPBar>
-	<Command Type="TrainSquad" Position="8">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="2">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="6">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="6">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="6">cov_shadowZealot_upgrade3</Command></Object>
 	<Object name="cov_bldg_socket_01" id="0" dbid="2721">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>Covenant\Building\socket_01\socket_01.vis</Visual>
@@ -8347,7 +8347,7 @@
 		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
-	<Command Type="TrainSquad" Position="8">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="0">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="0">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="0">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="0">cov_shadowZealot_upgrade3</Command></Object>
 	<Object name="cov_bldg_lightfactory_01" id="0" dbid="184">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>covenant\building\lightfactory_01\lightfactory_01.vis</Visual>
@@ -8613,7 +8613,7 @@
 		<AutoParkingLot Offset="0,0,19.25" Rotation="0">hook_bldg_parkingLotCov_01</AutoParkingLot>
 		<BuildRotation>90</BuildRotation>
 		<BuildOffset>-7.5,0,0</BuildOffset>
-	<Command Type="Research" Position="8">cov_tech_plasmaOvercharge</Command><Command Type="Research" Position="8">cov_tech_harmonicShields</Command><Command Type="Research" Position="8">cov_tech_zealotFrenzy</Command><Command Type="TrainSquad" Position="8">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="1">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="7">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="7">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="7">cov_shadowZealot_upgrade3</Command><Command Type="Research" Position="7">cov_tech_plasmaOvercharge</Command><Command Type="Research" Position="3">cov_tech_harmonicShields</Command><Command Type="Research" Position="5">cov_tech_zealotFrenzy</Command></Object>
 	<Object name="cov_bldg_temple_02" id="0" dbid="3452">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>covenant\building\temple_02\temple_02.vis</Visual>
@@ -8711,7 +8711,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar>COV_Bldg_Health</HPBar>
-	<Command Type="Research" Position="8">cov_tech_plasmaOvercharge</Command><Command Type="Research" Position="8">cov_tech_harmonicShields</Command><Command Type="Research" Position="8">cov_tech_zealotFrenzy</Command><Command Type="TrainSquad" Position="8">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="1">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="7">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="7">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="7">cov_shadowZealot_upgrade3</Command><Command Type="Research" Position="7">cov_tech_plasmaOvercharge</Command><Command Type="Research" Position="3">cov_tech_harmonicShields</Command><Command Type="Research" Position="5">cov_tech_zealotFrenzy</Command></Object>
 	<Object name="cov_bldg_temple_03" id="0" dbid="3453">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>covenant\building\temple_03\temple_03.vis</Visual>
@@ -8808,7 +8808,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar>COV_Bldg_Health</HPBar>
-	<Command Type="Research" Position="8">cov_tech_plasmaOvercharge</Command><Command Type="Research" Position="8">cov_tech_harmonicShields</Command><Command Type="Research" Position="8">cov_tech_zealotFrenzy</Command><Command Type="TrainSquad" Position="8">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="8">cov_shadowZealot_upgrade3</Command></Object>
+	<Command Type="TrainSquad" Position="1">cov_inf_shadowZealot_01</Command><Command Type="Research" Position="7">cov_shadowZealot_upgrade1</Command><Command Type="Research" Position="7">cov_shadowZealot_upgrade2</Command><Command Type="Research" Position="7">cov_shadowZealot_upgrade3</Command><Command Type="Research" Position="7">cov_tech_plasmaOvercharge</Command><Command Type="Research" Position="3">cov_tech_harmonicShields</Command><Command Type="Research" Position="5">cov_tech_zealotFrenzy</Command></Object>
 	<Object name="cov_bldg_shadeTurret_01" id="0" dbid="187">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>covenant\building\shadeturret_01\shadeturret_01.vis</Visual>

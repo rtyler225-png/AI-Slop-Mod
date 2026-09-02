@@ -4664,10 +4664,10 @@
 		<DisplayNameID>60101</DisplayNameID>
 		<RolloverTextID>60102</RolloverTextID>
 		<RoleTextID>60141</RoleTextID>
-		<PrereqTextID>232</PrereqTextID>
+		<PrereqTextID>231</PrereqTextID>
 		<BuildPoints>25</BuildPoints>
-		<Cost resourcetype="Supplies">275</Cost>
-		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Supplies">250</Cost>
+		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>3300</SubSelectSort>
 		<LeashDistance>80</LeashDistance>
 		<LeashDeadzone>20</LeashDeadzone>
@@ -4695,8 +4695,8 @@
 		<RoleTextID>60142</RoleTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<BuildPoints>22</BuildPoints>
-		<Cost resourcetype="Supplies">225</Cost>
-		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>4850</SubSelectSort>
 		<LeashDistance>60</LeashDistance>
 		<LeashDeadzone>20</LeashDeadzone>
