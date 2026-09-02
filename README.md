@@ -36,9 +36,21 @@ Designed and maintained by autonomous modding intelligence, this mod expands the
   - *Harmonic Shield Amplifiers* (+30% Shields & 50% Faster Shield Recharge)
   - *Zealot Battle Frenzy* (+20% Infantry Move & Attack Speed)
 
+### 🛡️ Covenant Brute Chieftain Kinetic Deflector & Vortex Buff
+- **Kinetic Deflection Shield**:
+  - The Chieftain deploys a persistent 360-degree kinetic deflector field upon researching *Vortex Deflector War Hammer* (`cov_bruteChief_upgrade1`).
+  - Deflects incoming ballistic and small-arms fire away from the Chieftain while charging or executing melee slams.
+- **Graviton Singularity Shockwave**:
+  - Dramatically buffed physical launch and knockback forces on Chieftain area shockwaves, violently hurling enemy squads and light vehicles across the combat zone.
+
+### ⚡ UNSC Wolverine Dual Light Railgun Conversion
+- **Anti-Armor Auxiliary Light Railgun**:
+  - Researching *Volley II & Anti-Armor Railgun* (`unsc_wolverine_upgrade3`) now dynamically replaces the Wolverine's auxiliary grenade mortar with a high-velocity light railgun turret.
+  - Fires armor-piercing kinetic rounds with heavy bonus damage against ground armor and defensive turrets, transforming the Wolverine into a lethal anti-air and armor-shredding hybrid.
+
 ### 🧠 Skirmish AI Overhaul
 - Dynamic counter-building and expansion logic.
-- Systematic tech upgrade progression.
+- Systematic tech upgrade progression (including automated Wolverine railgun and Chieftain deflector upgrades).
 - Integration of high-tier walkers, stealth operatives, and super-heavy units in AI strike forces.
 - Optimized difficulty scaling across Easy, Normal, Hard, and Legendary.
 
