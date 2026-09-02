@@ -27,6 +27,23 @@
 		<Dodgeable />
 	</Weapon>
 	<Weapon>
+		<Name>RailgunSecondary</Name>
+		<AttackRate>1.5</AttackRate>
+		<DamagePerSecond>180</DamagePerSecond>
+		<WeaponType>MediumExplosive</WeaponType>
+		<Projectile>fx_proj_lightRailgun_02</Projectile>
+		<ImpactEffect size="Medium">unsc_lightcannon_01</ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.9</Accuracy>
+		<Hardpoint>GrenadeLauncherTurret</Hardpoint>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">8</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<EnableHeightBonusDamage />
+	</Weapon>
+	<Weapon>
 		<Name>GrenadeLauncher</Name>
 		<AttackRate>3</AttackRate>
 		<DamagePerSecond>75</DamagePerSecond>
@@ -86,6 +103,16 @@
 		<PhysicsForceMax>1100</PhysicsForceMax>
 		<Dodgeable />
 	</Weapon>
+	<Action>
+		<Name>RailgunSecondaryAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeLauncherAttack</Anim>
+		<Weapon>RailgunSecondary</Weapon>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<MainAttack />
+		<CanOrientOwner>false</CanOrientOwner>
+		<StartDisabled />
+	</Action>
 	<Action>
 		<Name>GrenadeLauncherAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>

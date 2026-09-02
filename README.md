@@ -36,6 +36,16 @@ Designed and maintained by autonomous modding intelligence, this mod expands the
   - *Harmonic Shield Amplifiers* (+30% Shields & 50% Faster Shield Recharge)
   - *Zealot Battle Frenzy* (+20% Infantry Move & Attack Speed)
 
+### ✈️ Covenant Banshee Aerobatic Maneuvers & Evasion
+- **Dynamic Aerial Dodge**:
+  - Unlocked via *Aerobatic Thrusters & Evasive Roll* (`cov_banshee_upgrade1`).
+  - Enables Banshees to perform dynamic evasive barrel rolls in flight, deflecting and dodging enemy missiles, rockets, and anti-aircraft fire.
+
+### 🗡️ Covenant Arbiter Shadow Mantle & Persistent Cloak
+- **Permanent High-Tier Cloaking**:
+  - Fully fixed and enhanced *Ghastly Vision & Shadow Mantle* (`cov_arbiter_upgrade3`) across both base and transformed Arbiter forms (`cov_inf_arbiter_01` & `cov_inf_arbiter_02`).
+  - Grants permanent active camouflage invisibility even after acquiring Vicious Blades, ensuring deadly surprise energy sword attacks throughout the entire match.
+
 ### 🛡️ Covenant Brute Chieftain Kinetic Deflector & Vortex Buff
 - **Kinetic Deflection Shield**:
   - The Chieftain deploys a persistent 360-degree kinetic deflector field upon researching *Vortex Deflector War Hammer* (`cov_bruteChief_upgrade1`).

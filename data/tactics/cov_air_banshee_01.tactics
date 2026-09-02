@@ -105,6 +105,7 @@
 		<DodgeMaxAngle>120</DodgeMaxAngle>
 		<DodgePercent>0.400000006</DodgePercent>
 		<DodgeCooldown>3</DodgeCooldown>
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>GarrisonHotDrop</Name>
@@ -179,6 +180,7 @@
 			<TargetType>TeleportDropoff</TargetType>
 			<Action>UngarrisonTeleport</Action>
 		</TargetRule>
+		<PersistentAction>Dodge</PersistentAction>
 		<PersistentAction>AvoidCollisionAir</PersistentAction>
 		<PersistentAction>KamikazeOnDeath</PersistentAction>
 	</Tactic>

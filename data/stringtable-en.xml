@@ -4856,5 +4856,9 @@
 	<String _locID="60153">Upgrades the Wolverine missile pod to Volley II and swaps the auxiliary grenade launcher with a hyper-velocity light railgun for high damage against enemy ground armor.</String>
 	<String _locID="60154">Graviton Singularity Vortex</String>
 	<String _locID="60155">Amplifies the Chieftain's area slam with cataclysmic gravitational force, violently hurling nearby enemies and creating a disruptive gravity well.</String>
+	<String _locID="60160">Aerobatic Thrusters &amp; Evasive Roll</String>
+	<String _locID="60161">Equips Banshees with high-performance vector thrusters and aerial evasion subroutines, unlocking the active Speed Boost ability while allowing pilots to dynamically roll and dodge incoming missiles, rockets, and projectile attacks.</String>
+	<String _locID="60162">Ghastly Vision &amp; Shadow Mantle</String>
+	<String _locID="60163">Cloaks the Arbiter in permanent active optical camouflage across all weapon forms, granting invisibility while moving and dealing lethal surprise strikes with twin energy blades.</String>
 </Language>
 </StringTable>

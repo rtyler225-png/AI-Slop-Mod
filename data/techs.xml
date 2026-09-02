@@ -4459,8 +4459,8 @@
 	</Tech>
 	<Tech name="cov_arbiter_upgrade3" type="Normal">
 		<DBID>1915</DBID>
-		<DisplayNameID>24428</DisplayNameID>
-		<RolloverTextID>24429</RolloverTextID>
+		<DisplayNameID>60162</DisplayNameID>
+		<RolloverTextID>60163</RolloverTextID>
 		<Cost resourcetype="Supplies">600</Cost>
 		<Cost resourcetype="Power">3</Cost>
 		<ResearchPoints>60</ResearchPoints>
@@ -4482,6 +4482,15 @@
 			</Effect>
 			<Effect type="Data" amount="1.70000005" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.39999998" subtype="Damage" action="DualSword" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_arbiter_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Cloak" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_arbiter_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1.70000005" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_arbiter_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -4708,8 +4717,8 @@
 	</Tech>
 	<Tech name="cov_banshee_upgrade1" type="Normal">
 		<DBID>1915</DBID>
-		<DisplayNameID>1092</DisplayNameID>
-		<RolloverTextID>1093</RolloverTextID>
+		<DisplayNameID>60160</DisplayNameID>
+		<RolloverTextID>60161</RolloverTextID>
 		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<ResearchPoints>20</ResearchPoints>
@@ -4721,6 +4730,9 @@
 				<Target type="ProtoSquad">cov_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_air_banshee_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Dodge" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_banshee_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">

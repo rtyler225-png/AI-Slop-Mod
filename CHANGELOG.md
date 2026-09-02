@@ -6,6 +6,39 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.2.0] - 2026-09-02
+
+### Theme: Aerial Superiority & Arbiter Shadow Blades Overhaul
+
+This release delivers major tactical combat overhauls for aerial dogfighting and stealth hero mechanics, along with weapon definitions and engine bugfixes:
+
+---
+
+### Key Highlights & Additions
+
+#### 1. Covenant: Banshee Aerobatic Maneuvers & Evasive Barrel Roll
+- **Dynamic Aerial Dodge (`Dodge`)**:
+  - Activated the evasive aerial barrel roll maneuver in `data/tactics/cov_air_banshee_01.tactics` via `<PersistentAction>Dodge</PersistentAction>`.
+  - Upgrading Banshees with **Aerobatic Thrusters & Evasive Roll** (`cov_banshee_upgrade1`) now enables the `Dodge` action (`ActionEnable Dodge`).
+  - Grants Banshees dynamic evasion against incoming heavy ballistic projectiles, anti-air missiles, and rockets, elevating Banshees to true agile air-superiority fighters.
+- **Custom Localization**:
+  - Added custom strings (IDs `60160`, `60161`) detailing the vector thrusters and evasion mechanics.
+
+#### 2. Covenant: Arbiter Ghastly Vision Shadow Mantle Fix & Upgrade
+- **Persistent Cloaking on Upgraded Arbiter (`cov_inf_arbiter_02`)**:
+  - Fixed a critical engine gap where researching Arbiter upgrade 3 (**Ghastly Vision & Shadow Mantle**, `cov_arbiter_upgrade3`) only applied the `Cloak` ActionEnable and damage multiplier to base unit `cov_inf_arbiter_01`.
+  - Because researching upgrade 2 (`cov_arbiter_upgrade2`) transforms the Arbiter into `cov_inf_arbiter_02`, the Arbiter previously lost the ability to cloak after receiving Vicious Blades!
+  - `cov_arbiter_upgrade3` now fully targets `cov_inf_arbiter_02` with `ActionEnable Cloak`, `DualSword` damage boost, and hitpoints boost, guaranteeing permanent optical camouflage in endgame combat.
+- **Custom Localization**:
+  - Added localized strings (IDs `60162`, `60163`) detailing the shadow mantle optical cloaking and lethal ambush strikes.
+
+#### 3. UNSC: Wolverine Railgun Weapon Action Stability Fix
+- **Tactical Action Definitions**:
+  - Completed the `unsc_veh_wolverine_01.tactics` configuration by adding the explicit `<Weapon>` block `RailgunSecondary` (180 DPS, kinetic light railgun with `fx_proj_lightRailgun_02` and medium lightcannon impact effect) and `<Action>` block `RailgunSecondaryAttackAction` bound to `GrenadeLauncherTurret`.
+  - Fully resolves tactical targeting rules and ensures stable weapon fire transitions when researching `unsc_wolverine_upgrade3`.
+
+---
+
 ## [1.1.0] - 2026-09-02
 
 ### Theme: Chieftain Kinetic Deflector & Wolverine Dual Railgun Conversion
