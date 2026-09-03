@@ -4056,8 +4056,8 @@
 	</Tech>
 	<Tech name="cov_prophet_upgrade1" type="Normal">
 		<DBID>1915</DBID>
-		<DisplayNameID>24400</DisplayNameID>
-		<RolloverTextID>24401</RolloverTextID>
+		<DisplayNameID>60172</DisplayNameID>
+		<RolloverTextID>60173</RolloverTextID>
 		<Cost resourcetype="Supplies">400</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<ResearchPoints>20</ResearchPoints>
@@ -4089,7 +4089,7 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="ShieldAction1" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_prophet_01</Target>
 			</Effect>
 		</Effects>
@@ -4803,14 +4803,17 @@
 	</Tech>
 	<Tech name="cov_vampire_upgrade1" type="Normal">
 		<DBID>1915</DBID>
-		<DisplayNameID>1096</DisplayNameID>
-		<RolloverTextID>1097</RolloverTextID>
+		<DisplayNameID>60170</DisplayNameID>
+		<RolloverTextID>60171</RolloverTextID>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_vampire_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Dodge" relativity="Absolute">
+				<Target type="ProtoUnit">cov_air_vampire_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_air_vampire_01</Target>

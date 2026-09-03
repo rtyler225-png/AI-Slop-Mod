@@ -16,7 +16,7 @@
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<AOERadius>3</AOERadius>
+		<AOERadius>5</AOERadius>
 		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
 		<AOEDistanceFactor>0.5</AOEDistanceFactor>
 		<AOEDamageFactor>0.75</AOEDamageFactor>
@@ -25,6 +25,7 @@
 		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>2000</PhysicsForceMin>
 		<PhysicsForceMax>3000</PhysicsForceMax>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="Infantry">8</TargetPriority>
 		<TargetPriority type="Aircraft">9</TargetPriority>

@@ -6,6 +6,37 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.3.0] - 2026-09-02
+
+### Theme: Prophet Shield Matrix Synchronization & Vampire Vector Thrusters
+
+This update resolves a long-standing engine bug with the Prophet of Regret's defensive shield progression, enhances the Prophet's Fuel Rod Cannon concussive blast dynamics, and equips the Covenant Vampire with agile vector thrusters and aerial evasion subroutines.
+
+---
+
+### Key Highlights & Additions
+
+#### 1. Covenant: Prophet of Regret Shield Matrix Harmonization & Concussive Blast
+- **Shield Action ID Calibration Bugfix**:
+  - In vanilla *Halo Wars*, researching **Blessed Immolation** (`cov_prophet_upgrade1`) disabled `ShieldAction1` and enabled `ShieldAction2`. However, the initial shield action in `cov_inf_prophet_01.tactics` was named `ShieldAction`, NOT `ShieldAction1`.
+  - As a consequence, `ShieldAction` was never properly disabled when `ShieldAction2` was unlocked, leading to desynchronized shield actions.
+  - `cov_prophet_upgrade1` now accurately disables `ShieldAction` upon enabling `ShieldAction2`, properly transitioning the Prophet to the upgraded shield matrix.
+- **Fuel Rod Concussive Blast & Ground Armor Disruption**:
+  - Upgraded both ground throne (`cov_inf_prophet_01.tactics`) and flying throne (`cov_inf_prophet_02.tactics`) Fuel Rod Cannon attacks with an increased area-of-effect blast radius (`AOERadius` expanded from 3 to 5).
+  - Added physical concussive shockwaves via `<CausePhysicsExplosion>` against enemy ground vehicles, hurling light vehicles and disrupting armor lines on direct impact.
+- **Custom Localization**:
+  - Added localized strings (IDs `60172`, `60173`) in `data/stringtable-en.xml` detailing the synchronized shield matrix and devastating heavy armor disruption.
+
+#### 2. Covenant: Vampire Evasive Vector Thrusters & Countermeasures
+- **Aerial Evasion Maneuvers (`Dodge`)**:
+  - Integrated dynamic aerodynamic evasion into `data/tactics/cov_air_vampire_01.tactics` with `<ActionType>Dodge</ActionType>` and active `<PersistentAction>Dodge</PersistentAction>`.
+  - Researching **Evasive Vector Thrusters** (`cov_vampire_upgrade1`) now enables the `Dodge` action (`ActionEnable Dodge`) on `cov_air_vampire_01`.
+  - Grants the Vampire a 35%–150% chance within a 120-degree cone to weave and dodge incoming anti-aircraft rockets, heavy missiles, and projectile bursts every 3.5 seconds, solidifying its role as an elusive anti-air hunter craft.
+- **Custom Localization**:
+  - Added localized strings (IDs `60170`, `60171`) in `data/stringtable-en.xml` giving the upgrade its official title and lore description in the Summit production queue.
+
+---
+
 ## [1.2.0] - 2026-09-02
 
 ### Theme: Aerial Superiority & Arbiter Shadow Blades Overhaul

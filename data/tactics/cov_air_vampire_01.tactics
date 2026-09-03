@@ -227,6 +227,16 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>3</WorkRange>
 	</Action>
+	<Action>
+		<Name>Dodge</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0.349999994</DodgeChanceMin>
+		<DodgeChanceMax>1.5</DodgeChanceMax>
+		<DodgeMaxAngle>120</DodgeMaxAngle>
+		<DodgePercent>0.349999994</DodgePercent>
+		<DodgeCooldown>3.5</DodgeCooldown>
+		<StartDisabled />
+	</Action>
 	<Tactic>
 		<TargetRule>
 			<GaiaOwned />
@@ -303,6 +313,7 @@
 			<TargetType>TeleportDropoff</TargetType>
 			<Action>UngarrisonTeleport</Action>
 		</TargetRule>
+		<PersistentAction>Dodge</PersistentAction>
 		<PersistentAction>AvoidCollisionAir</PersistentAction>
 	</Tactic>
 </TacticData>

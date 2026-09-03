@@ -4860,5 +4860,9 @@
 	<String _locID="60161">Equips Banshees with high-performance vector thrusters and aerial evasion subroutines, unlocking the active Speed Boost ability while allowing pilots to dynamically roll and dodge incoming missiles, rockets, and projectile attacks.</String>
 	<String _locID="60162">Ghastly Vision &amp; Shadow Mantle</String>
 	<String _locID="60163">Cloaks the Arbiter in permanent active optical camouflage across all weapon forms, granting invisibility while moving and dealing lethal surprise strikes with twin energy blades.</String>
+	<String _locID="60170">Evasive Vector Thrusters</String>
+	<String _locID="60171">Upgrades Vampires with high-agility repulsor thrusters and evasion gyro-stabilizers, granting bonus combat resilience and allowing the craft to weave and dodge incoming projectile fire.</String>
+	<String _locID="60172">Blessed Immolation &amp; Shield Matrix Calibration</String>
+	<String _locID="60173">Upgrades the Prophet's throne with dual explosive fuel rod cannons that detonate with concussive shockwaves against heavy armor, while synchronizing the throne's reinforced energy shield matrix.</String>
 </Language>
 </StringTable>

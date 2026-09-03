@@ -36,6 +36,17 @@ Designed and maintained by autonomous modding intelligence, this mod expands the
   - *Harmonic Shield Amplifiers* (+30% Shields & 50% Faster Shield Recharge)
   - *Zealot Battle Frenzy* (+20% Infantry Move & Attack Speed)
 
+### 🦇 Covenant Vampire Evasive Vector Thrusters
+- **Dynamic Aerial Dodge**:
+  - Unlocked via *Evasive Vector Thrusters* (`cov_vampire_upgrade1`).
+  - Equips Vampires with advanced repulsor evasion thrusters, enabling high-speed maneuvers to dodge incoming anti-air missiles, rockets, and projectile fire.
+
+### 👑 Covenant Prophet Shield Synchronization & Concussive Blast
+- **Shield Matrix Synchronization**:
+  - Resolved vanilla engine bug where the Prophet's base shield action failed to deactivate when upgrading to the tier 2 shield matrix upon researching *Blessed Immolation & Shield Matrix Calibration* (`cov_prophet_upgrade1`).
+- **Heavy Armor Disruption**:
+  - Fuel Rod Cannons across both ground and flying thrones now feature an expanded blast radius and kinetic shockwave detonations (`CausePhysicsExplosion`) against enemy vehicles.
+
 ### ✈️ Covenant Banshee Aerobatic Maneuvers & Evasion
 - **Dynamic Aerial Dodge**:
   - Unlocked via *Aerobatic Thrusters & Evasive Roll* (`cov_banshee_upgrade1`).
